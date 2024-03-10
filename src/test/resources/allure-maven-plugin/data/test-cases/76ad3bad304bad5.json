@@ -1,0 +1,120 @@
+{
+  "uid" : "76ad3bad304bad5",
+  "name" : "testCreateSameUser",
+  "fullName" : "CreateUserTests.testCreateSameUser",
+  "historyId" : "ec9954b4b92daec957856c90bac5aa22",
+  "time" : {
+    "start" : 1710078735153,
+    "stop" : 1710078735965,
+    "duration" : 812
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generate credentials",
+      "time" : {
+        "start" : 1710078735154,
+        "stop" : 1710078735154,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Negative: Create same user",
+      "time" : {
+        "start" : 1710078735155,
+        "stop" : 1710078735964,
+        "duration" : 809
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Positive: Create User",
+        "time" : {
+          "start" : 1710078735156,
+          "stop" : 1710078735487,
+          "duration" : 331
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "randomEmail",
+          "value" : "rumCN@example.com"
+        }, {
+          "name" : "randomPassword",
+          "value" : "SOHL3o"
+        }, {
+          "name" : "randomName",
+          "value" : "SOHL3o"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateUserTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCreateSameUser"
+  }, {
+    "name" : "suite",
+    "value" : "CreateUserTests"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-German.local"
+  }, {
+    "name" : "thread",
+    "value" : "38035@MacBook-Pro-German.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76ad3bad304bad5.json",
+  "parameterValues" : [ ]
+}
