@@ -1,4 +1,6 @@
+import api.client.UserClient;
 import io.qameta.allure.Step;
+import io.qameta.allure.junit4.DisplayName;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.hamcrest.Matchers;
@@ -18,7 +20,7 @@ public class CreateUserTests {
 
     @Before
     @Step("Generate credentials")
-    public void setUp(){
+    public void setUp() {
         RestAssured.baseURI = BASE_URI;
         randomEmail = generateRandomEmail(5);
         randomPassword = generateRandomString(6);
@@ -27,11 +29,14 @@ public class CreateUserTests {
     }
 
     @Test
+    @DisplayName("Create a unique user")
     @Step("Positive: Create User")
-    public void testCreateUser(){
+    public void testCreateUser() {
         getUser(randomEmail, randomPassword, randomName);
     }
+
     @Test
+    @DisplayName("Create a user who is already registered")
     @Step("Negative: Create same user")
     public void testCreateSameUser(){
         User user = getUser(randomEmail, randomPassword, randomPassword);
@@ -43,9 +48,11 @@ public class CreateUserTests {
                 .then().assertThat().statusCode(403).and().body("success", Matchers.is(false))
                 .and().body("message", Matchers.is("User already exists"));
     }
+
     @Test
+    @DisplayName("Create a user and don't fill in one of the required fields")
     @Step("Negative: Create user without field")
-    public void testCreateUserWithoutField(){
+    public void testCreateUserWithoutField() {
         User tempUser = getUser(randomEmail, randomPassword, randomName);
         User user = new User(null, randomPassword, randomName);
         Response response = given()
@@ -56,7 +63,6 @@ public class CreateUserTests {
         response.then().assertThat().statusCode(403).and().body("success", Matchers.is(false))
                 .and().body("message", Matchers.is("Email, password and name are required fields"));
     }
-
 
     @Step("Positive: Create User")
     private User getUser(String randomEmail, String randomPassword, String randomName) {
@@ -79,6 +85,4 @@ public class CreateUserTests {
                 .delete(USER_URL)
                 .then().assertThat().statusCode(202).and().body("success", Matchers.is(true));
     }
-
-
 }

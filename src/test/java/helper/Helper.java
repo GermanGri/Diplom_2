@@ -4,19 +4,18 @@ import java.util.Random;
 
 public class Helper {
     public static final String BASE_URI = "https://stellarburgers.nomoreparties.site";
+
+    //public static final String AUTH_URL = "/api/auth";
     public static final String USER_REGISTER_URL = "/api/auth/register";
     public static final String USER_URL = "/api/auth/user";
     public static final String USER_LOGIN_URL = "/api/auth/login";
+    //eto
     public static final String ORDERS_URL = "/api/orders";
     public static final String GET_INGREDIENTS_URL = "/api/ingredients";
     public static final String CREATE_ORDERS = "/api/orders";
-
     public static final String DICTIONARY = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
-
     public static final String CONTENT_TYPE_LABEL = "Content-type";
     public static final String CONTENT_TYPE_VALUE = "application/json";
-
-
 
 
     public static String generateRandomString(int length) {
@@ -43,5 +42,4 @@ public class Helper {
 
         return randomString + domain;
     }
-
 }
