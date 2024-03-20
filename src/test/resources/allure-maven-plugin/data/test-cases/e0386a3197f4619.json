@@ -1,0 +1,96 @@
+{
+  "uid" : "e0386a3197f4619",
+  "name" : "createOrderWithBadIngredients",
+  "fullName" : "CreatingOrderTests.createOrderWithBadIngredients",
+  "historyId" : "b2e645d6a2865e4a7b78fd810adf8213",
+  "time" : {
+    "start" : 1710078736437,
+    "stop" : 1710078737523,
+    "duration" : 1086
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generate credentials",
+      "time" : {
+        "start" : 1710078736438,
+        "stop" : 1710078737063,
+        "duration" : 625
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Negative: Create order with bad ingredients with auth",
+      "time" : {
+        "start" : 1710078737064,
+        "stop" : 1710078737522,
+        "duration" : 458
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreatingOrderTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithBadIngredients"
+  }, {
+    "name" : "suite",
+    "value" : "CreatingOrderTests"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-German.local"
+  }, {
+    "name" : "thread",
+    "value" : "38035@MacBook-Pro-German.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e0386a3197f4619.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,120 @@
+{
+  "uid" : "2b44671e70901a8c",
+  "name" : "testCreateUser",
+  "fullName" : "CreateUserTests.testCreateUser",
+  "historyId" : "8f706e5e2b43a14e3ef5e8f149b6daac",
+  "time" : {
+    "start" : 1710078734481,
+    "stop" : 1710078735149,
+    "duration" : 668
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generate credentials",
+      "time" : {
+        "start" : 1710078734481,
+        "stop" : 1710078734481,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Positive: Create User",
+      "time" : {
+        "start" : 1710078734481,
+        "stop" : 1710078735149,
+        "duration" : 668
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Positive: Create User",
+        "time" : {
+          "start" : 1710078734481,
+          "stop" : 1710078735149,
+          "duration" : 668
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "randomEmail",
+          "value" : "NP8zZ@example.com"
+        }, {
+          "name" : "randomPassword",
+          "value" : "RzdD3Z"
+        }, {
+          "name" : "randomName",
+          "value" : "PwIOMmh"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateUserTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCreateUser"
+  }, {
+    "name" : "suite",
+    "value" : "CreateUserTests"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-German.local"
+  }, {
+    "name" : "thread",
+    "value" : "38035@MacBook-Pro-German.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b44671e70901a8c.json",
+  "parameterValues" : [ ]
+}

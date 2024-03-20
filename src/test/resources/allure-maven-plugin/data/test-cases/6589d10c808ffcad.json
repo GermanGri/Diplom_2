@@ -1,0 +1,120 @@
+{
+  "uid" : "6589d10c808ffcad",
+  "name" : "testCreateUserWithoutField",
+  "fullName" : "CreateUserTests.testCreateUserWithoutField",
+  "historyId" : "ac5ee557db91b3de622404b0902f759",
+  "time" : {
+    "start" : 1710078733606,
+    "stop" : 1710078734476,
+    "duration" : 870
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generate credentials",
+      "time" : {
+        "start" : 1710078733606,
+        "stop" : 1710078733606,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Negative: Create user without field",
+      "time" : {
+        "start" : 1710078733607,
+        "stop" : 1710078734476,
+        "duration" : 869
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Positive: Create User",
+        "time" : {
+          "start" : 1710078733611,
+          "stop" : 1710078733923,
+          "duration" : 312
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "randomEmail",
+          "value" : "KuP7E@example.com"
+        }, {
+          "name" : "randomPassword",
+          "value" : "syz14i"
+        }, {
+          "name" : "randomName",
+          "value" : "i1jgStt"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateUserTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCreateUserWithoutField"
+  }, {
+    "name" : "suite",
+    "value" : "CreateUserTests"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-German.local"
+  }, {
+    "name" : "thread",
+    "value" : "38035@MacBook-Pro-German.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6589d10c808ffcad.json",
+  "parameterValues" : [ ]
+}
