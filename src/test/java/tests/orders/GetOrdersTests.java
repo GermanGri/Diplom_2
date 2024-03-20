@@ -1,12 +1,15 @@
+package tests.orders;
+
 import io.qameta.allure.Step;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import models.Order;
 import org.hamcrest.Matchers;
 import org.junit.Assert;
 
 import org.junit.Test;
-import site.nomoreparties.stellarburgers.Order;
+import tests.BaseTest;
 
 
 import java.util.List;
@@ -14,7 +17,7 @@ import java.util.List;
 import static helper.Helper.*;
 import static io.restassured.RestAssured.given;
 
-public class GetOrdersTests extends BaseTest{
+public class GetOrdersTests extends BaseTest {
 
     @Test
     @DisplayName("Receiving orders from an authorized user")
@@ -28,7 +31,7 @@ public class GetOrdersTests extends BaseTest{
                 .auth().oauth2(accessToken)
                 .body(order)
                 .when()
-                .post(CREATE_ORDERS);
+                .post(ORDERS_URL);
         response.then().assertThat().statusCode(200).and().body("success", Matchers.is(true));
         given()
                 .auth().oauth2(accessToken)
