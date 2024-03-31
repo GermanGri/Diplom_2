@@ -1,0 +1,96 @@
+{
+  "uid" : "3b837293819a3346",
+  "name" : "testChangeUserEmail",
+  "fullName" : "ChangingUserDataTests.testChangeUserEmail",
+  "historyId" : "c34949d76a3efe3d60e6ae94dd9ca3cd",
+  "time" : {
+    "start" : 1710078743934,
+    "stop" : 1710078744507,
+    "duration" : 573
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generate credentials",
+      "time" : {
+        "start" : 1710078743934,
+        "stop" : 1710078744241,
+        "duration" : 307
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Positive: Changing user email",
+      "time" : {
+        "start" : 1710078744241,
+        "stop" : 1710078744507,
+        "duration" : 266
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "ChangingUserDataTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testChangeUserEmail"
+  }, {
+    "name" : "suite",
+    "value" : "ChangingUserDataTests"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-German.local"
+  }, {
+    "name" : "thread",
+    "value" : "38035@MacBook-Pro-German.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3b837293819a3346.json",
+  "parameterValues" : [ ]
+}
